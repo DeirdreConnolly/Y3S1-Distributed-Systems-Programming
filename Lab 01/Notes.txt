@@ -1,0 +1,49 @@
+2 creational patterns:
+
+	- Singleton
+		Encapsulates the creation of an object in order to maintain control over it
+		Enables “lazy initialization”, i.e. only actually create the object at the time we need it (as opposed to up front)
+		
+	- Factory method
+		Delay until run-time (i.e. not compile time) which one of several compatible classes is used to instantiate an object
+
+
+2 structural patterns:
+
+	- Adapter
+		Uses indirection to modify the interface of a class to make it easier for a client class to use it
+	
+	- Proxy
+		Uses indirection to transparently provide a stand-in for another class
+	
+	- Decorator
+		Uses indirection to add behavior to a class, without unduly affecting the client class
+		BufferedReaderin = new BufferedReader(new FileReader("file.txt"));
+
+
+Behavioral pattern:
+
+	- Observer
+
+
+Serialization:
+
+	- The conversion of an object to a series of bytes, so that the object can be easily saved to persistent storage or streamed across a communication link
+	- The byte stream can then be deserialized - converted into a replica of the original object
+	- The serialization mechanism is built into the Java platform, but you need to implement the Serializable interface to make an object serializable
+
+
+Help:
+
+	Arena Fight Example Using Warrior and Mage
+		https://www.ict.social/java/oop
+		
+	Design Patterns Tutorial Video Playlist
+		https://www.youtube.com/playlist?list=PLF206E906175C7E07
+
+	Name Generator
+		http://www.java-gaming.org/index.php?topic=35802.0
+		
+	Serialisation
+		https://www.tutorialspoint.com/java/java_serialization.htm (from spec)
+
